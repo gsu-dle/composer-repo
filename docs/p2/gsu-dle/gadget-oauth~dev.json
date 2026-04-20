@@ -1,0 +1,55 @@
+{
+    "packages": {
+        "gsu-dle/gadget-oauth": [
+            {
+                "name": "gsu-dle/gadget-oauth",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-oauth.git",
+                    "reference": "2cf3064657aa6d57cfb6075294103db913d99713"
+                },
+                "require": {
+                    "gsu-dle/gadget-http": "^1.0",
+                    "php": "^8.1"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T18:25:06+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\Oauth\\": [
+                            "src/",
+                            "bundle/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget library for working with OAuth",
+                "homepage": "https://github.com/gsu-dle/gadget-oauth",
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-oauth/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-oauth/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-oauth"
+                }
+            }
+        ]
+    }
+}

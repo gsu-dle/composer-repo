@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$9f6cf615412d21249a9a383bbab91d5df5fa24b7.json": {
-            "sha1": "9f6cf615412d21249a9a383bbab91d5df5fa24b7"
+        "include/all$4b589f412867fc6db80327311f31bb58d67e538f.json": {
+            "sha1": "4b589f412867fc6db80327311f31bb58d67e538f"
         }
     },
     "metadata-url": "/composer-repo/p2/%package%.json",
@@ -13,6 +13,7 @@
         "gsu-dle/gadget-http",
         "gsu-dle/gadget-ldap",
         "gsu-dle/gadget-log",
+        "gsu-dle/gadget-oauth",
         "gsu-dle/gadget-oracle",
         "gsu-dle/gadget-process",
         "gsu-dle/psr-http-contracts",
