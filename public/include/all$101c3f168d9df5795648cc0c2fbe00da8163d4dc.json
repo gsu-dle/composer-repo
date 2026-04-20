@@ -1,0 +1,961 @@
+{
+    "packages": {
+        "gsu-dle/gadget-cache": {
+            "1.0.0": {
+                "name": "gsu-dle/gadget-cache",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-cache.git",
+                    "reference": "59455b3f7f6dd4870b7fbbfa24dbeac6182a4bf0"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "gsu-dle/gadget-core": "^1.0",
+                    "gsu-dle/symfony-bundle": "^1.0",
+                    "php": "^8.1",
+                    "psr/cache": "^3.0"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T14:21:49+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\Cache\\": [
+                            "src/",
+                            "bundle/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget library for working with cache",
+                "homepage": "https://github.com/gsu-dle/gadget-cache",
+                "keywords": [
+                    "cache",
+                    "psr",
+                    "psr-6"
+                ],
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-cache/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-cache/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-cache"
+                }
+            },
+            "dev-main": {
+                "name": "gsu-dle/gadget-cache",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-cache.git",
+                    "reference": "59455b3f7f6dd4870b7fbbfa24dbeac6182a4bf0"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "gsu-dle/gadget-core": "^1.0",
+                    "gsu-dle/symfony-bundle": "^1.0",
+                    "php": "^8.1",
+                    "psr/cache": "^3.0"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T14:21:49+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\Cache\\": [
+                            "src/",
+                            "bundle/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget library for working with cache",
+                "homepage": "https://github.com/gsu-dle/gadget-cache",
+                "keywords": [
+                    "cache",
+                    "psr",
+                    "psr-6"
+                ],
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-cache/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-cache/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-cache"
+                }
+            }
+        },
+        "gsu-dle/gadget-console": {
+            "1.0.0": {
+                "name": "gsu-dle/gadget-console",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-console.git",
+                    "reference": "7c323d4200bcc1cbf84d30fea37b14586b2ae552"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "gsu-dle/gadget-core": "^1.0",
+                    "gsu-dle/gadget-log": "^1.0",
+                    "gsu-dle/gadget-process": "^1.0",
+                    "php": "^8.1",
+                    "symfony/console": "6.4.*",
+                    "symfony/event-dispatcher": "6.4.*"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T14:45:06+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\Console\\": [
+                            "src/",
+                            "bundle/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget library for console apps",
+                "homepage": "https://github.com/gsu-dle/gadget-console",
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-console/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-console/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-console"
+                }
+            },
+            "dev-main": {
+                "name": "gsu-dle/gadget-console",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-console.git",
+                    "reference": "7c323d4200bcc1cbf84d30fea37b14586b2ae552"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "gsu-dle/gadget-core": "^1.0",
+                    "gsu-dle/gadget-log": "^1.0",
+                    "gsu-dle/gadget-process": "^1.0",
+                    "php": "^8.1",
+                    "symfony/console": "6.4.*",
+                    "symfony/event-dispatcher": "6.4.*"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T14:45:06+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\Console\\": [
+                            "src/",
+                            "bundle/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget library for console apps",
+                "homepage": "https://github.com/gsu-dle/gadget-console",
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-console/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-console/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-console"
+                }
+            }
+        },
+        "gsu-dle/gadget-core": {
+            "1.0.0": {
+                "name": "gsu-dle/gadget-core",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-core.git",
+                    "reference": "d9884bfc076ed582c9f3cdfddd0527e19b897289"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": "^8.1"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.1",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.13"
+                },
+                "time": "2026-04-20T12:40:41+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget is a PHP micro framework of various bits of code I've written over the years",
+                "homepage": "https://github.com/gsu-dle/gadget-core",
+                "keywords": [
+                    "framework",
+                    "micro"
+                ],
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-core/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-core/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-core"
+                }
+            },
+            "dev-main": {
+                "name": "gsu-dle/gadget-core",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-core.git",
+                    "reference": "d9884bfc076ed582c9f3cdfddd0527e19b897289"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": "^8.1"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.1",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.13"
+                },
+                "time": "2026-04-20T12:40:41+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget is a PHP micro framework of various bits of code I've written over the years",
+                "homepage": "https://github.com/gsu-dle/gadget-core",
+                "keywords": [
+                    "framework",
+                    "micro"
+                ],
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-core/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-core/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-core"
+                }
+            }
+        },
+        "gsu-dle/gadget-ldap": {
+            "1.0.0": {
+                "name": "gsu-dle/gadget-ldap",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-ldap.git",
+                    "reference": "8d1ca4213fb40f5b48818b281070586ba324ed1e"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-ldap": "*",
+                    "gsu-dle/gadget-core": "^1.0",
+                    "gsu-dle/symfony-bundle": "^1.0",
+                    "php": "^8.1"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T14:51:56+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\Ldap\\": [
+                            "src/",
+                            "bundle/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget LDAP library",
+                "homepage": "https://github.com/gsu-dle/gadget-ldap",
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-ldap/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-ldap/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-ldap"
+                }
+            },
+            "dev-main": {
+                "name": "gsu-dle/gadget-ldap",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-ldap.git",
+                    "reference": "8d1ca4213fb40f5b48818b281070586ba324ed1e"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-ldap": "*",
+                    "gsu-dle/gadget-core": "^1.0",
+                    "gsu-dle/symfony-bundle": "^1.0",
+                    "php": "^8.1"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T14:51:56+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\Ldap\\": [
+                            "src/",
+                            "bundle/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget LDAP library",
+                "homepage": "https://github.com/gsu-dle/gadget-ldap",
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-ldap/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-ldap/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-ldap"
+                }
+            }
+        },
+        "gsu-dle/gadget-log": {
+            "1.0.0": {
+                "name": "gsu-dle/gadget-log",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-log.git",
+                    "reference": "90b83ee3560c104af0cf276c9d10451b48ea6459"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "gsu-dle/gadget-core": "^1.0",
+                    "gsu-dle/symfony-bundle": "^1.0",
+                    "monolog/monolog": "^3.7",
+                    "php": "^8.1",
+                    "psr/log": "^3.0"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T14:21:56+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\Log\\": [
+                            "src/",
+                            "bundle/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget logging library",
+                "homepage": "https://github.com/gsu-dle/gadget-log",
+                "keywords": [
+                    "log",
+                    "psr",
+                    "psr-3"
+                ],
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-log/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-log/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-log"
+                }
+            },
+            "dev-main": {
+                "name": "gsu-dle/gadget-log",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-log.git",
+                    "reference": "90b83ee3560c104af0cf276c9d10451b48ea6459"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "gsu-dle/gadget-core": "^1.0",
+                    "gsu-dle/symfony-bundle": "^1.0",
+                    "monolog/monolog": "^3.7",
+                    "php": "^8.1",
+                    "psr/log": "^3.0"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T14:21:56+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\Log\\": [
+                            "src/",
+                            "bundle/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget logging library",
+                "homepage": "https://github.com/gsu-dle/gadget-log",
+                "keywords": [
+                    "log",
+                    "psr",
+                    "psr-3"
+                ],
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-log/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-log/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-log"
+                }
+            }
+        },
+        "gsu-dle/gadget-oracle": {
+            "1.0.0": {
+                "name": "gsu-dle/gadget-oracle",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-oracle.git",
+                    "reference": "2e9e8a84db68a6e000adf345a5f89f3466c2e5ae"
+                },
+                "require": {
+                    "doctrine/dbal": "^4.2",
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "ext-json": "*",
+                    "gsu-dle/gadget-console": "^1.0",
+                    "php": "^8.1"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T15:02:35+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\Oracle\\": [
+                            "src/",
+                            "bundle/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget Oracle library",
+                "homepage": "https://github.com/gsu-dle/gadget-oracle",
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-oracle/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-oracle/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-oracle"
+                }
+            },
+            "dev-main": {
+                "name": "gsu-dle/gadget-oracle",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-oracle.git",
+                    "reference": "2e9e8a84db68a6e000adf345a5f89f3466c2e5ae"
+                },
+                "require": {
+                    "doctrine/dbal": "^4.2",
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "ext-json": "*",
+                    "gsu-dle/gadget-console": "^1.0",
+                    "php": "^8.1"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T15:02:35+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\Oracle\\": [
+                            "src/",
+                            "bundle/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget Oracle library",
+                "homepage": "https://github.com/gsu-dle/gadget-oracle",
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-oracle/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-oracle/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-oracle"
+                }
+            }
+        },
+        "gsu-dle/gadget-process": {
+            "1.0.0": {
+                "name": "gsu-dle/gadget-process",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-process.git",
+                    "reference": "759e3cfd27906197bbf99d9c7f31ffc2d2a27779"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "gsu-dle/gadget-core": "^1.0",
+                    "gsu-dle/symfony-bundle": "^1.0",
+                    "php": "^8.1",
+                    "symfony/process": "6.4.*"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T14:34:14+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\Process\\": [
+                            "src/",
+                            "bundle/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget library for executing commands in sub-processes",
+                "homepage": "https://github.com/gsu-dle/gadget-process",
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-process/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-process/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-process"
+                }
+            },
+            "dev-main": {
+                "name": "gsu-dle/gadget-process",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-process.git",
+                    "reference": "759e3cfd27906197bbf99d9c7f31ffc2d2a27779"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "gsu-dle/gadget-core": "^1.0",
+                    "gsu-dle/symfony-bundle": "^1.0",
+                    "php": "^8.1",
+                    "symfony/process": "6.4.*"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T14:34:14+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\Process\\": [
+                            "src/",
+                            "bundle/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget library for executing commands in sub-processes",
+                "homepage": "https://github.com/gsu-dle/gadget-process",
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-process/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-process/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-process"
+                }
+            }
+        },
+        "gsu-dle/psr-http-contracts": {
+            "1.0.0": {
+                "name": "gsu-dle/psr-http-contracts",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/psr-http-contracts.git",
+                    "reference": "77535c40e4d6d18f10f4c441813875a5ddfd03c3"
+                },
+                "require": {
+                    "fig/http-message-util": "^1.1",
+                    "php": "^8.1",
+                    "psr/http-client": "^1.0",
+                    "psr/http-factory": "^1.1",
+                    "psr/http-message": "^2.0",
+                    "psr/http-server-handler": "^1.0",
+                    "psr/http-server-middleware": "^1.0"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T13:52:40+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Fig\\Http\\Message\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Collection of PSR HTTP interfaces",
+                "homepage": "https://github.com/gsu-dle/psr-http-contracts",
+                "keywords": [
+                    "http",
+                    "http-message",
+                    "psr",
+                    "psr-7",
+                    "request",
+                    "response"
+                ],
+                "support": {
+                    "issues": "https://github.com/gsu-dle/psr-http-contracts/issues",
+                    "wiki": "https://github.com/gsu-dle/psr-http-contracts/wiki",
+                    "source": "https://github.com/gsu-dle/psr-http-contracts"
+                }
+            },
+            "dev-main": {
+                "name": "gsu-dle/psr-http-contracts",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/psr-http-contracts.git",
+                    "reference": "77535c40e4d6d18f10f4c441813875a5ddfd03c3"
+                },
+                "require": {
+                    "fig/http-message-util": "^1.1",
+                    "php": "^8.1",
+                    "psr/http-client": "^1.0",
+                    "psr/http-factory": "^1.1",
+                    "psr/http-message": "^2.0",
+                    "psr/http-server-handler": "^1.0",
+                    "psr/http-server-middleware": "^1.0"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T13:52:40+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Fig\\Http\\Message\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Collection of PSR HTTP interfaces",
+                "homepage": "https://github.com/gsu-dle/psr-http-contracts",
+                "keywords": [
+                    "http",
+                    "http-message",
+                    "psr",
+                    "psr-7",
+                    "request",
+                    "response"
+                ],
+                "support": {
+                    "issues": "https://github.com/gsu-dle/psr-http-contracts/issues",
+                    "wiki": "https://github.com/gsu-dle/psr-http-contracts/wiki",
+                    "source": "https://github.com/gsu-dle/psr-http-contracts"
+                }
+            }
+        },
+        "gsu-dle/symfony-bundle": {
+            "1.0.0": {
+                "name": "gsu-dle/symfony-bundle",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/symfony-bundle.git",
+                    "reference": "1d20ecbbbb3ef40d0e9e2504348c59a86df291c9"
+                },
+                "require": {
+                    "php": "^8.1",
+                    "symfony/config": "6.4.*",
+                    "symfony/dependency-injection": "6.4.*",
+                    "symfony/http-kernel": "6.4.*",
+                    "symfony/yaml": "6.4.*"
+                },
+                "time": "2026-04-20T13:55:19+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\HttpKernel\\Bundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Common dependencies for Symfony bundles",
+                "homepage": "https://github.com/gsu-dle/symfony-bundle",
+                "keywords": [
+                    "symfony",
+                    "synfony-bundle"
+                ],
+                "support": {
+                    "issues": "https://github.com/gsu-dle/symfony-bundle/issues",
+                    "wiki": "https://github.com/gsu-dle/symfony-bundle/wiki",
+                    "source": "https://github.com/gsu-dle/symfony-bundle"
+                }
+            },
+            "dev-main": {
+                "name": "gsu-dle/symfony-bundle",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/symfony-bundle.git",
+                    "reference": "1d20ecbbbb3ef40d0e9e2504348c59a86df291c9"
+                },
+                "require": {
+                    "php": "^8.1",
+                    "symfony/config": "6.4.*",
+                    "symfony/dependency-injection": "6.4.*",
+                    "symfony/http-kernel": "6.4.*",
+                    "symfony/yaml": "6.4.*"
+                },
+                "time": "2026-04-20T13:55:19+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\HttpKernel\\Bundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Common dependencies for Symfony bundles",
+                "homepage": "https://github.com/gsu-dle/symfony-bundle",
+                "keywords": [
+                    "symfony",
+                    "synfony-bundle"
+                ],
+                "support": {
+                    "issues": "https://github.com/gsu-dle/symfony-bundle/issues",
+                    "wiki": "https://github.com/gsu-dle/symfony-bundle/wiki",
+                    "source": "https://github.com/gsu-dle/symfony-bundle"
+                }
+            }
+        }
+    }
+}

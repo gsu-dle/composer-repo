@@ -1,0 +1,29 @@
+{
+  "name": "gsu-dle/composer-repo",
+  "description": "",
+  "type": "library",
+  "keywords": [],
+  "homepage": "https://github.com/gsu-dle/composer-repo",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/gsu-dle/composer-repo/issues",
+    "wiki": "https://github.com/gsu-dle/composer-repo/wiki",
+    "source": "https://github.com/gsu-dle/composer-repo"
+  },
+  "require": {
+    "php": "^8.1",
+    "ext-json": "*",
+    "composer/satis": "dev-main"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/satis": true
+    },
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "apcu-autoloader": true
+  },
+  "scripts": {
+    "build": "vendor/bin/satis build src/satis.json public/"
+  }
+}

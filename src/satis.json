@@ -1,0 +1,43 @@
+{
+  "name": "gsu-dle/composer-repo",
+  "homepage": "https://github.com/gsu-dle/composer-repo",
+  "require-all": true,
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/gsu-dle/gadget-cache.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/gsu-dle/gadget-console.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/gsu-dle/gadget-core.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/gsu-dle/gadget-ldap.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/gsu-dle/gadget-log.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/gsu-dle/gadget-oracle.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/gsu-dle/gadget-process.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/gsu-dle/psr-http-contracts.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/gsu-dle/symfony-bundle.git"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "gsu-dle/gadget-ldap": [
+            {
+                "name": "gsu-dle/gadget-ldap",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-ldap.git",
+                    "reference": "8d1ca4213fb40f5b48818b281070586ba324ed1e"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-ldap": "*",
+                    "gsu-dle/gadget-core": "^1.0",
+                    "gsu-dle/symfony-bundle": "^1.0",
+                    "php": "^8.1"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T14:51:56+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\Ldap\\": [
+                            "src/",
+                            "bundle/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget LDAP library",
+                "homepage": "https://github.com/gsu-dle/gadget-ldap",
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-ldap/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-ldap/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-ldap"
+                }
+            }
+        ]
+    }
+}

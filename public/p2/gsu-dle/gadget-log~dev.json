@@ -1,0 +1,64 @@
+{
+    "packages": {
+        "gsu-dle/gadget-log": [
+            {
+                "name": "gsu-dle/gadget-log",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-log.git",
+                    "reference": "90b83ee3560c104af0cf276c9d10451b48ea6459"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "gsu-dle/gadget-core": "^1.0",
+                    "gsu-dle/symfony-bundle": "^1.0",
+                    "monolog/monolog": "^3.7",
+                    "php": "^8.1",
+                    "psr/log": "^3.0"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T14:21:56+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\Log\\": [
+                            "src/",
+                            "bundle/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget logging library",
+                "homepage": "https://github.com/gsu-dle/gadget-log",
+                "keywords": [
+                    "log",
+                    "psr",
+                    "psr-3"
+                ],
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-log/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-log/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-log"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$101c3f168d9df5795648cc0c2fbe00da8163d4dc.json": {
+            "sha1": "101c3f168d9df5795648cc0c2fbe00da8163d4dc"
+        }
+    },
+    "metadata-url": "/gsu-dle/composer-repo/p2/%package%.json",
+    "available-packages": [
+        "gsu-dle/gadget-cache",
+        "gsu-dle/gadget-console",
+        "gsu-dle/gadget-core",
+        "gsu-dle/gadget-ldap",
+        "gsu-dle/gadget-log",
+        "gsu-dle/gadget-oracle",
+        "gsu-dle/gadget-process",
+        "gsu-dle/psr-http-contracts",
+        "gsu-dle/symfony-bundle"
+    ]
+}

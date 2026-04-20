@@ -1,0 +1,62 @@
+{
+    "packages": {
+        "gsu-dle/gadget-cache": [
+            {
+                "name": "gsu-dle/gadget-cache",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-cache.git",
+                    "reference": "59455b3f7f6dd4870b7fbbfa24dbeac6182a4bf0"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "gsu-dle/gadget-core": "^1.0",
+                    "gsu-dle/symfony-bundle": "^1.0",
+                    "php": "^8.1",
+                    "psr/cache": "^3.0"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T14:21:49+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\Cache\\": [
+                            "src/",
+                            "bundle/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget library for working with cache",
+                "homepage": "https://github.com/gsu-dle/gadget-cache",
+                "keywords": [
+                    "cache",
+                    "psr",
+                    "psr-6"
+                ],
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-cache/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-cache/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-cache"
+                }
+            }
+        ]
+    }
+}

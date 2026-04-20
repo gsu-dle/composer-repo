@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "gsu-dle/symfony-bundle": [
+            {
+                "name": "gsu-dle/symfony-bundle",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/symfony-bundle.git",
+                    "reference": "1d20ecbbbb3ef40d0e9e2504348c59a86df291c9"
+                },
+                "require": {
+                    "php": "^8.1",
+                    "symfony/config": "6.4.*",
+                    "symfony/dependency-injection": "6.4.*",
+                    "symfony/http-kernel": "6.4.*",
+                    "symfony/yaml": "6.4.*"
+                },
+                "time": "2026-04-20T13:55:19+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\HttpKernel\\Bundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Common dependencies for Symfony bundles",
+                "homepage": "https://github.com/gsu-dle/symfony-bundle",
+                "keywords": [
+                    "symfony",
+                    "synfony-bundle"
+                ],
+                "support": {
+                    "issues": "https://github.com/gsu-dle/symfony-bundle/issues",
+                    "wiki": "https://github.com/gsu-dle/symfony-bundle/wiki",
+                    "source": "https://github.com/gsu-dle/symfony-bundle"
+                }
+            }
+        ]
+    }
+}

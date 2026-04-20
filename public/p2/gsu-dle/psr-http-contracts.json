@@ -1,0 +1,64 @@
+{
+    "packages": {
+        "gsu-dle/psr-http-contracts": [
+            {
+                "name": "gsu-dle/psr-http-contracts",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/psr-http-contracts.git",
+                    "reference": "77535c40e4d6d18f10f4c441813875a5ddfd03c3"
+                },
+                "require": {
+                    "fig/http-message-util": "^1.1",
+                    "php": "^8.1",
+                    "psr/http-client": "^1.0",
+                    "psr/http-factory": "^1.1",
+                    "psr/http-message": "^2.0",
+                    "psr/http-server-handler": "^1.0",
+                    "psr/http-server-middleware": "^1.0"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T13:52:40+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Fig\\Http\\Message\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Collection of PSR HTTP interfaces",
+                "homepage": "https://github.com/gsu-dle/psr-http-contracts",
+                "keywords": [
+                    "http",
+                    "http-message",
+                    "psr",
+                    "psr-7",
+                    "request",
+                    "response"
+                ],
+                "support": {
+                    "issues": "https://github.com/gsu-dle/psr-http-contracts/issues",
+                    "wiki": "https://github.com/gsu-dle/psr-http-contracts/wiki",
+                    "source": "https://github.com/gsu-dle/psr-http-contracts"
+                }
+            }
+        ]
+    }
+}
