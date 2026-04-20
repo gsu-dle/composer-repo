@@ -8,7 +8,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/gsu-dle/gadget-cache.git",
-                    "reference": "59455b3f7f6dd4870b7fbbfa24dbeac6182a4bf0"
+                    "reference": "a4ddfede87a2a064dfc383e750114db15ab881fa"
                 },
                 "require": {
                     "ext-json": "*",
@@ -23,7 +23,7 @@
                     "phpstan/phpstan-strict-rules": "^2.0",
                     "squizlabs/php_codesniffer": "^3.10"
                 },
-                "time": "2026-04-20T14:21:49+00:00",
+                "time": "2026-04-20T17:50:34+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

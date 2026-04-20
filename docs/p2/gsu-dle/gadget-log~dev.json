@@ -8,7 +8,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/gsu-dle/gadget-log.git",
-                    "reference": "90b83ee3560c104af0cf276c9d10451b48ea6459"
+                    "reference": "51208ea93fac5ed3e3b90c1c038e307c5cfc3954"
                 },
                 "require": {
                     "ext-json": "*",
@@ -24,7 +24,7 @@
                     "phpstan/phpstan-strict-rules": "^2.0",
                     "squizlabs/php_codesniffer": "^3.10"
                 },
-                "time": "2026-04-20T14:21:56+00:00",
+                "time": "2026-04-20T17:50:38+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

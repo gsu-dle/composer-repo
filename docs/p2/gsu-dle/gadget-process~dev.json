@@ -8,7 +8,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/gsu-dle/gadget-process.git",
-                    "reference": "759e3cfd27906197bbf99d9c7f31ffc2d2a27779"
+                    "reference": "49f7094d9b8af8c1a8435e9a95c4b663595a5544"
                 },
                 "require": {
                     "ext-json": "*",
@@ -23,7 +23,7 @@
                     "phpstan/phpstan-strict-rules": "^2.0",
                     "squizlabs/php_codesniffer": "^3.10"
                 },
-                "time": "2026-04-20T14:34:14+00:00",
+                "time": "2026-04-20T17:50:40+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

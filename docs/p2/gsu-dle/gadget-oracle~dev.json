@@ -8,7 +8,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/gsu-dle/gadget-oracle.git",
-                    "reference": "2e9e8a84db68a6e000adf345a5f89f3466c2e5ae"
+                    "reference": "21785b65cee4a50e8cf13ed355feeec317bb1fe8"
                 },
                 "require": {
                     "doctrine/dbal": "^4.2",
@@ -24,7 +24,7 @@
                     "phpstan/phpstan-strict-rules": "^2.0",
                     "squizlabs/php_codesniffer": "^3.10"
                 },
-                "time": "2026-04-20T15:02:35+00:00",
+                "time": "2026-04-20T17:50:46+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

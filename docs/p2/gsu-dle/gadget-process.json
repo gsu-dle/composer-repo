@@ -51,6 +51,57 @@
                     "wiki": "https://github.com/gsu-dle/gadget-process/wiki",
                     "source": "https://github.com/gsu-dle/gadget-process"
                 }
+            },
+            {
+                "name": "gsu-dle/gadget-process",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/gsu-dle/gadget-process.git",
+                    "reference": "49f7094d9b8af8c1a8435e9a95c4b663595a5544"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "gsu-dle/gadget-core": "^1.0",
+                    "gsu-dle/symfony-bundle": "^1.0",
+                    "php": "^8.1",
+                    "symfony/process": "6.4.*"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.4",
+                    "phpstan/phpstan": "^2.0",
+                    "phpstan/phpstan-strict-rules": "^2.0",
+                    "squizlabs/php_codesniffer": "^3.10"
+                },
+                "time": "2026-04-20T17:50:40+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gadget\\Process\\": [
+                            "src/",
+                            "bundle/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "phpcs": [
+                        "vendor/bin/phpcs"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Gadget library for executing commands in sub-processes",
+                "homepage": "https://github.com/gsu-dle/gadget-process",
+                "support": {
+                    "issues": "https://github.com/gsu-dle/gadget-process/issues",
+                    "wiki": "https://github.com/gsu-dle/gadget-process/wiki",
+                    "source": "https://github.com/gsu-dle/gadget-process"
+                }
             }
         ]
     }
