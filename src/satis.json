@@ -1,6 +1,6 @@
 {
   "name": "gsu-dle/composer-repo",
-  "homepage": "https://github.com/gsu-dle/composer-repo",
+  "homepage": "https://gsu-dle.github.io/composer-repo",
   "require-all": true,
   "repositories": [
     {

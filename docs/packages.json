@@ -5,7 +5,7 @@
             "sha1": "101c3f168d9df5795648cc0c2fbe00da8163d4dc"
         }
     },
-    "metadata-url": "/gsu-dle/composer-repo/p2/%package%.json",
+    "metadata-url": "/composer-repo/p2/%package%.json",
     "available-packages": [
         "gsu-dle/gadget-cache",
         "gsu-dle/gadget-console",
