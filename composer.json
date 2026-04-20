@@ -1,6 +1,6 @@
 {
   "name": "gsu-dle/composer-repo",
-  "description": "",
+  "description": "Org-level Composer repository",
   "type": "library",
   "keywords": [],
   "homepage": "https://github.com/gsu-dle/composer-repo",
