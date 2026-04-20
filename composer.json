@@ -24,6 +24,6 @@
     "apcu-autoloader": true
   },
   "scripts": {
-    "build": "vendor/bin/satis build src/satis.json public/"
+    "build": "vendor/bin/satis build src/satis.json docs/"
   }
 }
