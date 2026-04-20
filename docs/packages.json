@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$40c364002b573e3cbc33a134b92029a1dad37804.json": {
-            "sha1": "40c364002b573e3cbc33a134b92029a1dad37804"
+        "include/all$9f6cf615412d21249a9a383bbab91d5df5fa24b7.json": {
+            "sha1": "9f6cf615412d21249a9a383bbab91d5df5fa24b7"
         }
     },
     "metadata-url": "/composer-repo/p2/%package%.json",
@@ -10,6 +10,7 @@
         "gsu-dle/gadget-cache",
         "gsu-dle/gadget-console",
         "gsu-dle/gadget-core",
+        "gsu-dle/gadget-http",
         "gsu-dle/gadget-ldap",
         "gsu-dle/gadget-log",
         "gsu-dle/gadget-oracle",
